@@ -26,3 +26,4 @@ collageImages.map((item, i) => {
         }) 
     })
 })
+

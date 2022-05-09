@@ -860,5 +860,11 @@ footer .copyright {
     margin-top: 50px;
 }
 
+/* signUp Page*/
+
+#signUp {
+    display: flex;
+    margin-top: 20px;
+}
 
 
