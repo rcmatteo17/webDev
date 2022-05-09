@@ -1,0 +1,25 @@
+{
+  "name": "ecomwebsite",
+  "version": "1.0.0",
+  "description": "Project1",
+  "main": "homePage.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcmatteo17/webDev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcmatteo17/webDev/issues"
+  },
+  "homepage": "https://github.com/rcmatteo17/webDev#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express.js": "^1.0.0",
+    "firebase-admin": "^10.2.0",
+    "nodemon": "^2.0.16"
+  }
+}
