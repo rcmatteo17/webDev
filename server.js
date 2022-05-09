@@ -3,7 +3,7 @@ const admin = require('firebase-admin');
 const bcrypt =require('bcrypt');
 const path = require('path');
 
-let staticPath = path.join(__dirname, "public");
+let staticPath = path.join(__dirname,);
 
 const app = express();
 
