@@ -34,7 +34,7 @@ app.post('signUp', (req, res) => {
 
     db.collection('users').doc(email).get()
     .then(user => {
-        if(users.exists) {
+        if(user.exists) {
             return res.json({'alert': 'email already exists'});
         }else{
             bcrypt.genSalt(10, (err, salt) => {
