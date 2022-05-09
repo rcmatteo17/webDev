@@ -5,7 +5,7 @@ const path = require('path');
 
 var admin = require("firebase-admin");
 
-let serviceAccount = require("path/to/serviceAccountKey.json");
+let serviceAccount = require(".ecom-project1-firebase-adminsdk-ktbty-c6c2811f15.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
