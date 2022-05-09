@@ -13,8 +13,13 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(staticPath, "homePage.html"));
 })
 
-app.get(',signup', (req, res) => {
+app.get(',signUp', (req, res) => {
     res.sendFile(path.join(staticPath, "signUp.html"));
+})
+
+app.post('signUp', (req, res) => {
+    console.log(req.body);
+    res.json('data recieved');
 })
 
 app.get('/404', (req, res) => {
