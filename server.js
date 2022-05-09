@@ -3,11 +3,20 @@ const admin = require('firebase-admin');
 const bcrypt =require('bcrypt');
 const path = require('path');
 
+var admin = require("firebase-admin");
+
+let serviceAccount = require("path/to/serviceAccountKey.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
+
 let staticPath = path.join(__dirname,);
 
 const app = express();
 
 app.use(express.static(staticPath));
+app.use(express.json());
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(staticPath, "homePage.html"));

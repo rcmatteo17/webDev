@@ -29,6 +29,13 @@
          body: JSON.stringify(data)
      }).then((res) => res.json())
      .then(response => {
-         console.log(response);
+         processData(response);
      })
+ }
+
+ const processData = (data) => {
+     loader.style.display = null;
+     if(data.alert){
+         showAlert(data.alert);
+     }
  }
