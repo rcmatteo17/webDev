@@ -860,7 +860,7 @@ footer .copyright {
     margin-top: 50px;
 }
 
-/* signUp Page*/
+/* Signup Page */
 
 #signUp {
     display: flex;
@@ -879,7 +879,7 @@ input[type="password"]{
     background: #fff;
     border: none;
     outline: none;
-    margin: 20px 0;
+    margin: 10px 0;
     text-transform: capitalize;
     color: #383838;
     font-size: 14px;
@@ -887,3 +887,17 @@ input[type="password"]{
     font-family: 'Roboto, sans-serif';
     }
 
+    .submit-btn{
+        width: 300px;
+        height:75px;
+        text-align: centre;
+        line-height: 40px;
+        background: #383838;
+        color: #fff;
+        border-radius: 2px;
+        text-transform: capitalize;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin: 10px; 
+    }
