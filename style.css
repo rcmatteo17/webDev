@@ -134,19 +134,6 @@ body {
 #hero h1 {
     color: #0555ac;
 }
-#hero button {
-    background-image: url("img/button.png");
-    background-color: transparent;
-    background-size: 150px 60px;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #E3E6F3;
-    border: 0;
-    padding: 14px 80px 14px 65px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 15px;
-}
 
 #feature {
     display: flex;
@@ -422,6 +409,10 @@ body {
     color: #fff;
 }
 
+#sign-up h2 {
+    color: #fff;
+}
+
 #sign-up p {
     font-size: 17px;
     color: #1e103f;
@@ -440,16 +431,13 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
     outline: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
 }
 
 #sign-up button {
     background-color: #1e103f;
     color: #fff;
     white-space: nowrap;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    margin-left: 10px;
 }
 
 /* Footer */
@@ -592,7 +580,9 @@ footer .copyright {
 #form-details form button:hover,
 #coupon button:hover,
 #total button:hover,
-#product .productDescript button:hover {
+#product .productDescript button:hover,
+#login-form button:hover,
+button.normal:hover {
     background: #088178;
     color: #fff;
 }
@@ -884,13 +874,12 @@ input[type="password"]{
     color: #383838;
     font-size: 14px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
-    font-family: 'Roboto, sans-serif';
     }
 
-    .submit-btn{
+#sign-up #submit-btn{
         width: 300px;
         height:75px;
-        text-align: centre;
+        text-align: center;
         line-height: 40px;
         background: #383838;
         color: #fff;
@@ -901,3 +890,49 @@ input[type="password"]{
         display: block;
         margin: 10px; 
     }
+
+
+/* Login Page CSS */
+/* Login Page */
+
+#login-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form h2{
+    padding-bottom: 50px;
+}
+
+#login-form form #form-group input, 
+#login-form form textarea {
+    width: 100px;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+#login-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+#login-form button {
+    margin-top: 20px;
+}
+
+#login-footer .copyright{
+    margin-top: 200px;
+}
+
+#login-form .wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
