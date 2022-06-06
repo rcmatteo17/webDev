@@ -35,30 +35,30 @@
             <h2>Super Value Deal</h2>
             <h1>On all second-hand items</h1>
             <p>Save the planet and your money!</p>
-            <a href="shop.html"><button class="normal">Shop now</button></a>
+            <a href="shop.php"><button class="normal">Shop now</button></a>
         </section>
 
         <section id="feature" class="section-p1">
             <div class="fe-box">
                 <img src="img/features/f1.png" alt="">
-                <h6><a href="promotions.html">Free Shipping</a></h6>
+                <h6><a href="promotions.php">Free Shipping</a></h6>
             </div>
             <div class="fe-box">
                 <img src="img/features/f2.png" alt="">
-                <h6><a href="shop.html">Online Order</a></h6>
+                <h6><a href="shop.php">Online Order</a></h6>
             </div>
             <div class="fe-box">
                 <img src="img/features/f3.png" alt="">
-                <h6><a href="promotions.html">Save Money</a></h6>
+                <h6><a href="promotions.php">Save Money</a></h6>
             </div>
             <div class="fe-box">
                 <img src="img/features/f4.png" alt="">
-                <h6><a href="promotions.html">Promotions</a></h6>
+                <h6><a href="promotions.php">Promotions</a></h6>
             </div>
 
             <div class="fe-box">
                 <img src="img/features/f5.png" alt="">
-                <h6><a href="contact.html">24/7 Support</a></h6>
+                <h6><a href="contact.php">24/7 Support</a></h6>
             </div>
         </section>
 
@@ -81,7 +81,7 @@
                         </div>
                         <h4>$180</h4>
                     </div>
-                    <a href="product1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product1.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/p2.jpg" alt="">
@@ -97,7 +97,7 @@
                         </div>
                         <h4>$6,000</h4>
                     </div>
-                    <a href="product2.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product2.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/p3.jpg" alt="">
@@ -113,7 +113,7 @@
                         </div>
                         <h4>$100 ono</h4>
                     </div>
-                    <a href="product3.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product3.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/p4.jpg" alt="">
@@ -129,7 +129,7 @@
                         </div>
                         <h4>$675</h4>
                     </div>
-                    <a href="product4.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product4.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/p5.jpg" alt="">
@@ -145,7 +145,7 @@
                         </div>
                         <h4>Free</h4>
                     </div>
-                    <a href="product5.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product5.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/p6.jpg" alt="">
@@ -161,7 +161,7 @@
                         </div>
                         <h4>$16,000</h4>
                     </div>
-                    <a href="product6.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product6.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/p7.jpg" alt="">
@@ -177,7 +177,7 @@
                         </div>
                         <h4>$14,000</h4>
                     </div>
-                    <a href="product7.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product7.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
                 <div class="pro">
                     <img src="img/products/p8.jpg" alt="">
@@ -193,7 +193,7 @@
                         </div>
                         <h4>$45</h4>
                     </div>
-                    <a href="product8.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="product8.php"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
 
@@ -307,18 +307,18 @@
 
             <div class="col">
                 <h4>About</h4>
-                <a href="about.html">About Us</a>
-                <a href="promotions.html">Delivery Info</a>
-                <a href="about.html">Terms and Conditions</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="about.php">About Us</a>
+                <a href="promotions.php">Delivery Info</a>
+                <a href="about.php">Terms and Conditions</a>
+                <a href="contact.php">Contact Us</a>
             </div>
             <div class="col">
                 <h4>My Account</h4>
                 <a href="#">Sign In</a>
-                <a href="cart.html">View Cart</a>
+                <a href="cart.php">View Cart</a>
                 <a href="#">Wishlist</a>
                 <a href="#">Track My Order</a>
-                <a href="contact.html">Help</a>
+                <a href="contact.php">Help</a>
             </div>
 
             <div class="copyright">
