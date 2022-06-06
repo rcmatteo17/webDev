@@ -123,7 +123,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 					$_SESSION['attempt'] += 1;
 					//set the time to allow login if third attempt is reach
 					if($_SESSION['attempt'] == 3){
-						$_SESSION['attempt_again'] = time() + (5*60);
+						$_SESSION['attempt_again'] = time() + (60*60);
 						//note 5*60 = 5mins, 60*60 = 1hr, to set to 2hrs change it to 2*60*60
 					}
 				}
