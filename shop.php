@@ -333,18 +333,18 @@
 
             <div class="col">
                 <h4>About</h4>
-                <a href="about.html">About Us</a>
-                <a href="promotions.html">Delivery Info</a>
-                <a href="about.html">Terms and Conditions</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="about.php">About Us</a>
+                <a href="promotions.php">Delivery Info</a>
+                <a href="about.php">Terms and Conditions</a>
+                <a href="contact.php">Contact Us</a>
             </div>
             <div class="col">
                 <h4>My Account</h4>
                 <a href="#">Sign In</a>
-                <a href="cart.html">View Cart</a>
+                <a href="cart.php">View Cart</a>
                 <a href="#">Wishlist</a>
                 <a href="#">Track My Order</a>
-                <a href="contact.html">Help</a>
+                <a href="contact.php">Help</a>
             </div>
 
             <div class="copyright">
